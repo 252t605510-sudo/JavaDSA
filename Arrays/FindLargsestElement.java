@@ -12,9 +12,9 @@ class FindLargsestElement
         for(int i=0;i<n;i++)
         {
             arr[i]=in.nextInt();
-            if(arr[i]>largest){
-                largest=arr[i];
-            }
+           
+               
+            
         }
         //printing the elements
         for(int i=0;i<n;i++){
