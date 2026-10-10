@@ -13,7 +13,7 @@ int i=0;
 int j=0;
 //add the smaller element
 while(i<n1&&j<n2)
-{
+{ 
     if(arr1[i]<arr2[j])
     {
         //add only if the element is not already present
@@ -88,8 +88,8 @@ return ans;
         arr1[i]=sc.nextInt();
     }
     int n2=sc.nextInt();
-    int []arr2=new int[n1];
-    for(int i=0;i<n1;i++)
+    int []arr2=new int[n2];
+    for(int i=0;i<n2;i++)
     {
         arr2[i]=sc.nextInt();
     }
