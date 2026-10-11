@@ -1,4 +1,12 @@
-import java.util.*;
+/*
+Approach:brute force using Hashset 
+add all elements of both arrays to the Hashset
+Hashset automatically remove Duplicates
+time complexity:O(n1+n2)=>if both arrays have different size
+space complexity:O(n1+n2)
+*/
+import java.util.Scanner;
+import java.util.HashSet;
 public class UnionOfTwoSortedArraysBrute {
     public static void main(String[]args)
     {

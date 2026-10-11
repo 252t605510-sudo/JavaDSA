@@ -1,3 +1,6 @@
+
+//time complexity:O(n)
+//space complexity:O(d)import java.util.Scanner;
 import java.util.Scanner;
 public class leftRotateArrayByDPlaces {
 public static  int[] leftRotate(int arr[],int n,int d)
@@ -42,5 +45,3 @@ sc.close();
 
 }
 }
-//time complexity:O(n)
-//space complexity:O(d)

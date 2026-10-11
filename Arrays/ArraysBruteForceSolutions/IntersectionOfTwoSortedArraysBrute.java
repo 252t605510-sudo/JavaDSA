@@ -1,6 +1,6 @@
 /*Approach:brute force
 time complexity:O(n^2)
-Space complexity:O(n)=>for vis[]ans result /temporary array
+Space complexity:O(n2)=>for vis[]ans result /temporary array
  */ 
  import java.util.Scanner;
 public class IntersectionOfTwoSortedArraysBrute 
@@ -9,15 +9,17 @@ public static int[]intersection(int arr1[],int arr2[],int n1,int n2)
 {
     int[] temp=new int[Math.min(n1,n2)];
     int count=0;
-    boolean []vis=new boolean[n2];
-    for(int i=0;i<n1;i++)
+    boolean []vis=new boolean[n2];// to avoid counting the same element more than once
+    for(int i=0;i<n1;i++)//arr1
     {
-        for(int j=0;j<n2;j++)
+        for(int j=0;j<n2;j++)//arr2
         {
+//check whethe the elemnts match and arr2 element is not used
             if(arr1[i]==arr2[j]&&!vis[j])
             {
                 temp[count]=arr1[i];
                 count++;
+                //mark the elemnt as used to avid duplicates
                 vis[j]=true;
                 break;
             }

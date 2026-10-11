@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class FindMissingNumber2 {
     public static int missing(int []arr,int n)
     {
-int sum=n*(n+1)/2;
+int sum=n*(n+1)/2;// sum of Natural numbers
      int sum2=0;
-     for(int i=0;i<n-1;i++)
+     for(int i=0;i<n-1;i++)// iterate through the array
      {
         sum2=sum2+arr[i];
      }

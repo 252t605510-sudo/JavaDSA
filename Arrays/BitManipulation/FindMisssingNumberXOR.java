@@ -1,14 +1,14 @@
 
 import java.util.Scanner;
-public class FindMisssingNumber {
+public class FindMisssingNumberXOR {
     public static int missingNumber(int arr[],int N)
     {
         int n=N-1;
         int XOR1=0,XOR2=0;
-        for(int i=0;i<n-1;i++)
+        for(int i=0;i<n;i++)
         {
             XOR2=XOR2^arr[i];
-            XOR1=XOR1^arr[i+1];
+            XOR1=XOR1^(i+1);
         }
         XOR1=XOR1^N;
         return XOR1^XOR2;
