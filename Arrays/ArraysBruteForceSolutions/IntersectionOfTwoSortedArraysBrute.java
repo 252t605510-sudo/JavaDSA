@@ -3,7 +3,7 @@ time complexity:O(n^2)
 Space complexity:O(n)=>for vis[]ans result /temporary array
  */ 
  import java.util.Scanner;
-public class IntersectionOfTwoSortedArrays 
+public class IntersectionOfTwoSortedArraysBrute 
 {
 public static int[]intersection(int arr1[],int arr2[],int n1,int n2)
 {

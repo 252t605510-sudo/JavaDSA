@@ -22,5 +22,6 @@ class ElectricityBill
             bill=(100*1.5)+(100*2.5)+(100*4.0)+(units-300)*5.0;
         }
         System.out.print("Electricity bill="+bill);
+        in.close();
     }
 }

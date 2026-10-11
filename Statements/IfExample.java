@@ -10,6 +10,7 @@ class IfExample
             System.out.println("eligible for vote");
         }
         System.out.println("hello world");
+        in.close();
     }
     
     

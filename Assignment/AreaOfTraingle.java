@@ -9,5 +9,6 @@ public class AreaOfTraingle
         System.out.print("enter the height:");
         int height=in.nextInt();
          System.out.print("Area of the Traingle:"+(base*height)/2);
+         in.close();
     }
 }

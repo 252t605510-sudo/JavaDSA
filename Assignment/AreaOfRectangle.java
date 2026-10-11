@@ -9,5 +9,6 @@ public class AreaOfRectangle
         System.out.print("enter the width:");
         int width=in.nextInt();
          System.out.print("Area of the rectangle:"+length*width);
+         in.close();
     }
 }

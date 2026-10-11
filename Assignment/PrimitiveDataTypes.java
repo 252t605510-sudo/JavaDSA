@@ -10,10 +10,13 @@ public class PrimitiveDataTypes{
 	    long LongInteger=324567891234l;//8-byte
 	    boolean check =false;
 	    System.out.println(rollNo);
+		System.out.print(s);
+		System.out.print(b);
 	    System.out.println(letter);
 	    System.out.println(marks);
 	    System.out.println(LargeDecimalNumber);
 	    System.out.println(LongInteger);
 	    System.out.println(check);
+	
 	}
 }

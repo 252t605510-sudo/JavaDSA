@@ -8,5 +8,6 @@ public class AreaOfCircle
         int radius=in.nextInt();
         float pi=3.14f;
         System.out.println("Area of the Circle:"+pi*radius*radius);
+        in.close();
     }
 }

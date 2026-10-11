@@ -11,6 +11,6 @@ class FactorialNumber
             factorial=factorial*i;
         }
         System.out.println("factorial of a number:"+factorial);
-        
+        in .close();
     }
 }

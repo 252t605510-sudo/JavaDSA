@@ -16,5 +16,6 @@ class AverageOfNumbers
             average=sum/n;
         }
         System.out.println("Average:"+average);
+        in.close();
     }
 }

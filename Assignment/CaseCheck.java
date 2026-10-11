@@ -14,5 +14,6 @@ class CaseCheck
         {
             System.out.println("upperCase");
         }
+        in.close();
         }
     }

@@ -9,5 +9,6 @@ public class AreaOfParllelogram
         System.out.print("enter the height:");
         int height=in.nextInt();
          System.out.print("Area of the parllelogram:"+(base*height));
+         in.close();
     }
 }

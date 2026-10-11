@@ -9,6 +9,7 @@ public class AreaOfEquilateralTraingle
    
    
          System.out.print("Area of the Equilateral Traingle:"+ 0.433*(side*side));
+         in.close();
     }
     
 }

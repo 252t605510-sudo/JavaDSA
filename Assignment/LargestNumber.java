@@ -20,6 +20,6 @@ public class LargestNumber
             max=num3;
         }
         System.out.println(max);
-        
+        in.close();
     }
 }

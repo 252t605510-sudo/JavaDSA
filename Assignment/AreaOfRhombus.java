@@ -9,5 +9,6 @@ public class AreaOfRhombus
         System.out.print("enter the  value of horizontal diagonal:");
         int d2=in.nextInt();
          System.out.print("Area of the rhombus:"+(d1*d2)/2);
+         in.close();
     }
 }
